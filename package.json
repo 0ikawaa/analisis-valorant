@@ -1,0 +1,15 @@
+{
+  "name": "valorant-analyzer",
+  "version": "1.0.0",
+  "description": "Analiza tu historial de partidas de VALORANT y genera un dashboard HTML local.",
+  "type": "module",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "report": "node index.js --open"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
